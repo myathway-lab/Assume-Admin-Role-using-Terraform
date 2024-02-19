@@ -1,8 +1,6 @@
 # Assume Role to another AWS account using Terraform.
 
-## In this lab, I will demostrate below -
-## I will create "Administrator" role in Master acc "582xxxxxx95" & Assume this role to itself. 
-## I will create "Administrator" role in Dev acc "767xxxxxxx73" & Assume this role to Master acc "582xxxxxx95". 
+## In this lab, I will create "Administrator" role in Master acc "582xxxxxx95" & Assume this role to itself. & I will create "Administrator" role in Dev acc "767xxxxxxx73" & Assume this role to Master acc "582xxxxxx95". 
 
 I have two AWS accounts for assume role testing.
 
@@ -119,5 +117,3 @@ Now we are able to manage everything on the Dev by using assumerole “Administr
 
 ![image](https://github.com/myathway-lab/Assume-Admin-Role-using-Terraform/assets/157335804/2a471f30-185e-4786-a6ba-201f29361668)
 
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f020007f-666a-401f-b7a3-4c1d3d9787c0/8b355229-aa6f-4e13-b996-4c7c25d15680/Untitled.png)
